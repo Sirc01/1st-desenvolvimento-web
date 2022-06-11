@@ -1,0 +1,79 @@
+
+*{
+  margin: 0;
+  box-sizing:border-box;
+  
+}
+
+body{
+  background-image: url(https://media.istockphoto.com/photos/man-looking-milky-way-in-desert-picture-id529545181?b=1&k=20&m=529545181&s=170667a&w=0&h=TS8Al7S6U_xNXiUeuKo_gGjbriu06Wkq8ZnKHWDDqDA=) ;
+  background-repeat: no-repeat;
+  background-size:100%;
+  background-color:black;
+  color: white;
+  text-align: center;
+  font-family: sans-serif;
+  
+}
+
+#box1{
+  border-radius: 30px;
+  background-color: grey;
+  margin-top: 50px;
+  width: 80%;
+  max-width: 400px;
+  margin-inline: auto;
+  box-shadow: 0 0 1em rgb(230, 202, 46);
+  
+}
+
+h1 {
+  color: black;
+  margin-top: 40px;
+  margin-bottom: 10px;
+  opacity: 0.9;
+}
+
+p {
+  margin-bottom: 40px;
+  opacity: 0.7;
+}
+
+/*propriedades aplicadas aqui dentro serve para ambos*/
+input,button{
+  display: block;
+  width: 100%;
+  /*preenchimento em english,nesse caso prencheu 20px para cada lado */
+  padding: 20px;
+  font-size: 20px;
+  border-radius: 50px;
+}
+
+input {
+  margin-bottom: 20px;
+  ;
+}
+
+button {
+  border: none;
+  background-color: blueviolet;
+  color: white;
+  transition: filter .3s;
+}
+/* pseudo-class :hover ,iluminação*/
+button:hover{
+  filter: brightness(1.2);
+  cursor: pointer;
+}
+
+#resposta { 
+  margin-top: 30px;
+  transition: opacity 1s;
+}
+
+#resposta div {
+  font-size: 16px;
+  font-weight: normal;
+  opacity: 0.9;
+  margin-bottom: 10px;
+}
